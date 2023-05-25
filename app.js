@@ -21,7 +21,7 @@ app.use('/post', postRoutes)
 
 
 app.get('/', (req, res) => {
-    res.send('sup fellas')
+    res.send('Welcome Dissentleviathan!')
 })
 
 
