@@ -8,6 +8,7 @@ require('dotenv/config')
 app.use(bodyParser.urlencoded({
     extanded: true
 }));
+
 app.use(bodyParser.json());
 app.use(cors())
 
